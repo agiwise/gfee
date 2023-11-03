@@ -1,0 +1,21 @@
+{
+  "applications": ["gfee"],
+  "changelogDate": "20231103132112",
+  "dto": "mapstruct",
+  "embedded": false,
+  "entityTableName": "gest_redev_ville",
+  "fields": [
+    {
+      "fieldName": "libelle",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Ville",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [],
+  "service": "serviceImpl",
+  "skipClient": true
+}

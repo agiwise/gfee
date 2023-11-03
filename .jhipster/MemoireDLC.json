@@ -1,0 +1,33 @@
+{
+  "applications": ["gfee"],
+  "changelogDate": "20231103132812",
+  "dto": "mapstruct",
+  "embedded": false,
+  "entityTableName": "gest_redev_memoire_dlc",
+  "fields": [
+    {
+      "fieldName": "codeMemoire",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "libelleDirection",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "libelleDLC",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "statutMemoire",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "MemoireDLC",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [],
+  "service": "serviceImpl",
+  "skipClient": true
+}

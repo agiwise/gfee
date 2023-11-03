@@ -1,0 +1,25 @@
+{
+  "applications": ["gfee"],
+  "changelogDate": "20231103132612",
+  "dto": "mapstruct",
+  "embedded": false,
+  "entityTableName": "user_dlc",
+  "fields": [
+    {
+      "fieldName": "idUserLiferay",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "idDLC",
+      "fieldType": "Long"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "UserDLC",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [],
+  "service": "serviceImpl",
+  "skipClient": true
+}

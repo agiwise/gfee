@@ -1,0 +1,161 @@
+{
+  "applications": ["gfee"],
+  "changelogDate": "20231103131912",
+  "dto": "mapstruct",
+  "embedded": false,
+  "entityTableName": "gest_redev_memoire",
+  "fields": [
+    {
+      "fieldName": "codeMemoire",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "intituleMemoire",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "dateMemoire",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "idFournisseur",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "idDLC",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "idVille",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "montantTTC",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "montantTVA7",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "montantHT7",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "montantTVA14",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "montantHT14",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "montantTVA20",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "montantHT20",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "montantTvaManue",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "diversesTaxes",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "dateComptable",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "numPieceSap",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "numOv",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "dateComptableReelle",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "dateOV",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "statutMemoire",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "dateCreation",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "dateValidation",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "dateRejet",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "dateComptabilisation",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "datePaiement",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "dateDevalidation",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "dateModification",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "motifRejet",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "idUserCreation",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "idUserValidation",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "idUserRejet",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "idUserComptabilisation",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "idUserPaiement",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "idUserDevalidation",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "idUserModification",
+      "fieldType": "Long"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Memoire",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [],
+  "service": "serviceImpl",
+  "skipClient": true
+}

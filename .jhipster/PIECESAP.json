@@ -1,0 +1,37 @@
+{
+  "applications": ["gfee"],
+  "changelogDate": "20231103132512",
+  "dto": "mapstruct",
+  "embedded": false,
+  "entityTableName": "gest_redev_piecesap",
+  "fields": [
+    {
+      "fieldName": "idDLC",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "idDirectionRegionale",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "idFournisseur",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "statutPieceSAP",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "libelle",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "PIECESAP",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [],
+  "service": "serviceImpl",
+  "skipClient": true
+}

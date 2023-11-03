@@ -1,0 +1,21 @@
+{
+  "applications": ["gfee"],
+  "changelogDate": "20231103132312",
+  "dto": "mapstruct",
+  "embedded": false,
+  "entityTableName": "direction_regionale",
+  "fields": [
+    {
+      "fieldName": "libelle",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "DirectionRegionale",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [],
+  "service": "serviceImpl",
+  "skipClient": true
+}

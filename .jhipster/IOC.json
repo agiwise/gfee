@@ -1,0 +1,109 @@
+{
+  "applications": ["gfee"],
+  "changelogDate": "20231103131712",
+  "dto": "mapstruct",
+  "embedded": false,
+  "entityTableName": "gest_redev_ioc",
+  "fields": [
+    {
+      "fieldName": "numeroIOC",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "typeIOC",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "typePrestation",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "typeIndex",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "categorie",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "etatIOC",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "libelle",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "adresse",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "puissanceSouscrite",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "puissanceInstalle",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "dateCreation",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "dateModification",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "idDirectionRegionale",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "idDLC",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "idVille",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "tension",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "responsableSite",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "activiteAnalytique",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "codeAnalytique",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "categorieIndex",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "idFournisseur",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "periodicite",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "observation",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "IOC",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [],
+  "service": "serviceImpl",
+  "skipClient": true
+}

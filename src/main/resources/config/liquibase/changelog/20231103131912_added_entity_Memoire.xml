@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.6.xsd
+                        http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
+
+    <!--
+        Added the entity Memoire.
+    -->
+    <changeSet id="20231103131912-1" author="jhipster">
+        <createTable tableName="gest_redev_memoire">
+            <column name="id" type="bigint">
+                <constraints primaryKey="true" nullable="false"/>
+            </column>
+            <column name="code_memoire" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="intitule_memoire" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="date_memoire" type="date">
+                <constraints nullable="true" />
+            </column>
+            <column name="id_fournisseur" type="bigint">
+                <constraints nullable="true" />
+            </column>
+            <column name="id_dlc" type="bigint">
+                <constraints nullable="true" />
+            </column>
+            <column name="id_ville" type="bigint">
+                <constraints nullable="true" />
+            </column>
+            <column name="montant_ttc" type="double">
+                <constraints nullable="true" />
+            </column>
+            <column name="montant_tva_7" type="double">
+                <constraints nullable="true" />
+            </column>
+            <column name="montant_ht_7" type="double">
+                <constraints nullable="true" />
+            </column>
+            <column name="montant_tva_14" type="double">
+                <constraints nullable="true" />
+            </column>
+            <column name="montant_ht_14" type="double">
+                <constraints nullable="true" />
+            </column>
+            <column name="montant_tva_20" type="double">
+                <constraints nullable="true" />
+            </column>
+            <column name="montant_ht_20" type="double">
+                <constraints nullable="true" />
+            </column>
+            <column name="montant_tva_manue" type="double">
+                <constraints nullable="true" />
+            </column>
+            <column name="diverses_taxes" type="double">
+                <constraints nullable="true" />
+            </column>
+            <column name="date_comptable" type="date">
+                <constraints nullable="true" />
+            </column>
+            <column name="num_piece_sap" type="bigint">
+                <constraints nullable="true" />
+            </column>
+            <column name="num_ov" type="bigint">
+                <constraints nullable="true" />
+            </column>
+            <column name="date_comptable_reelle" type="date">
+                <constraints nullable="true" />
+            </column>
+            <column name="date_ov" type="date">
+                <constraints nullable="true" />
+            </column>
+            <column name="statut_memoire" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="date_creation" type="date">
+                <constraints nullable="true" />
+            </column>
+            <column name="date_validation" type="date">
+                <constraints nullable="true" />
+            </column>
+            <column name="date_rejet" type="date">
+                <constraints nullable="true" />
+            </column>
+            <column name="date_comptabilisation" type="date">
+                <constraints nullable="true" />
+            </column>
+            <column name="date_paiement" type="date">
+                <constraints nullable="true" />
+            </column>
+            <column name="date_devalidation" type="date">
+                <constraints nullable="true" />
+            </column>
+            <column name="date_modification" type="date">
+                <constraints nullable="true" />
+            </column>
+            <column name="motif_rejet" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="id_user_creation" type="bigint">
+                <constraints nullable="true" />
+            </column>
+            <column name="id_user_validation" type="bigint">
+                <constraints nullable="true" />
+            </column>
+            <column name="id_user_rejet" type="bigint">
+                <constraints nullable="true" />
+            </column>
+            <column name="id_user_comptabilisation" type="bigint">
+                <constraints nullable="true" />
+            </column>
+            <column name="id_user_paiement" type="bigint">
+                <constraints nullable="true" />
+            </column>
+            <column name="id_user_devalidation" type="bigint">
+                <constraints nullable="true" />
+            </column>
+            <column name="id_user_modification" type="bigint">
+                <constraints nullable="true" />
+            </column>
+            <!-- jhipster-needle-liquibase-add-column - JHipster will add columns here -->
+        </createTable>
+    </changeSet>
+
+    <!-- jhipster-needle-liquibase-add-changeset - JHipster will add changesets here -->
+
+    <!--
+        Load sample data generated with Faker.js
+        - This data can be easily edited using a CSV editor (or even MS Excel) and
+          is located in the 'src/main/resources/config/liquibase/fake-data' directory
+        - By default this data is applied when running with the JHipster 'dev' profile.
+          This can be customized by adding or removing 'faker' in the 'spring.liquibase.contexts'
+          Spring Boot configuration key.
+    -->
+    <changeSet id="20231103131912-1-data" author="jhipster" context="faker">
+        <loadData
+                  file="config/liquibase/fake-data/gest_redev_memoire.csv"
+                  separator=";"
+                  tableName="gest_redev_memoire"
+                  usePreparedStatements="true">
+            <column name="id" type="numeric"/>
+            <column name="code_memoire" type="string"/>
+            <column name="intitule_memoire" type="string"/>
+            <column name="date_memoire" type="date"/>
+            <column name="id_fournisseur" type="numeric"/>
+            <column name="id_dlc" type="numeric"/>
+            <column name="id_ville" type="numeric"/>
+            <column name="montant_ttc" type="numeric"/>
+            <column name="montant_tva_7" type="numeric"/>
+            <column name="montant_ht_7" type="numeric"/>
+            <column name="montant_tva_14" type="numeric"/>
+            <column name="montant_ht_14" type="numeric"/>
+            <column name="montant_tva_20" type="numeric"/>
+            <column name="montant_ht_20" type="numeric"/>
+            <column name="montant_tva_manue" type="numeric"/>
+            <column name="diverses_taxes" type="numeric"/>
+            <column name="date_comptable" type="date"/>
+            <column name="num_piece_sap" type="numeric"/>
+            <column name="num_ov" type="numeric"/>
+            <column name="date_comptable_reelle" type="date"/>
+            <column name="date_ov" type="date"/>
+            <column name="statut_memoire" type="string"/>
+            <column name="date_creation" type="date"/>
+            <column name="date_validation" type="date"/>
+            <column name="date_rejet" type="date"/>
+            <column name="date_comptabilisation" type="date"/>
+            <column name="date_paiement" type="date"/>
+            <column name="date_devalidation" type="date"/>
+            <column name="date_modification" type="date"/>
+            <column name="motif_rejet" type="string"/>
+            <column name="id_user_creation" type="numeric"/>
+            <column name="id_user_validation" type="numeric"/>
+            <column name="id_user_rejet" type="numeric"/>
+            <column name="id_user_comptabilisation" type="numeric"/>
+            <column name="id_user_paiement" type="numeric"/>
+            <column name="id_user_devalidation" type="numeric"/>
+            <column name="id_user_modification" type="numeric"/>
+            <!-- jhipster-needle-liquibase-add-loadcolumn - JHipster (and/or extensions) can add load columns here -->
+        </loadData>
+    </changeSet>
+</databaseChangeLog>

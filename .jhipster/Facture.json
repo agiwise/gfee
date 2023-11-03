@@ -1,0 +1,261 @@
+{
+  "applications": ["gfee"],
+  "changelogDate": "20231103131812",
+  "dto": "mapstruct",
+  "embedded": false,
+  "entityTableName": "gest_redev_facture",
+  "fields": [
+    {
+      "fieldName": "idIOC",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "numeroFacture",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "dateFacture",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "codeMemoire",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "idMemoire",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "montantTTC",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "typeIndex",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "ancienIndex",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "nouvelIndex",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "dateDebutConso",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "dateFinConso",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "periodes",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "periodeReference",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "categorieFacture",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "puissanceAppelee",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "cosPhi",
+      "fieldType": "Float"
+    },
+    {
+      "fieldName": "rdpc",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "ancienIndexEan",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "nouvelIndexEan",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "eaNormale",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "ancienIndexEac",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "nouvelIndexEac",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "eaCreuse",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "ancienIndexEap",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "nouvelIndexEap",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "eaPointes",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "energieReactive",
+      "fieldType": "Float"
+    },
+    {
+      "fieldName": "heuresUtilisees",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "indiceMaximal",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "dateModification",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "dateSuppression",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "dateRendreFactureAs",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "statutFacture",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "dateCreation",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "dateValidation",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "dateRejet",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "idUserCreation",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "idUserValidation",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "idUserRejet",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "idUserModification",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "idUserSuppression",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "idUserRendreFactureAs",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "observation",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "motifRejet",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "rejetMotif",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "ancienIndexEa",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "nouvelIndexEa",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "ancienIndexEr",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "nouvelIndexEr",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "ancienIndexHu",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "nouvelIndexHu",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "ancienIndexIm",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "nouvelIndexIm",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "montantTVA7",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "montantHT7",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "montantTVA14",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "montantHT14",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "montantTVA20",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "montantHT20",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "montantTvaManue",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "diversesTaxes",
+      "fieldType": "Double"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Facture",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [],
+  "service": "serviceImpl",
+  "skipClient": true
+}

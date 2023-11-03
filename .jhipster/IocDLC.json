@@ -1,0 +1,29 @@
+{
+  "applications": ["gfee"],
+  "changelogDate": "20231103132712",
+  "dto": "mapstruct",
+  "embedded": false,
+  "entityTableName": "gest_redev_ioc_dlc",
+  "fields": [
+    {
+      "fieldName": "idIOC",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "numeroIOC",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "libelleIOC",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "IocDLC",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [],
+  "service": "serviceImpl",
+  "skipClient": true
+}

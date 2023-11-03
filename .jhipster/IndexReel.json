@@ -1,0 +1,49 @@
+{
+  "applications": ["gfee"],
+  "changelogDate": "20231103132412",
+  "dto": "mapstruct",
+  "embedded": false,
+  "entityTableName": "gest_redev_index_reel",
+  "fields": [
+    {
+      "fieldName": "numeroIOC",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "dateDebutConso",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "dateFinConso",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "indexDebut",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "indexFin",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "dateVisite",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "dateCreation",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "idUserCreation",
+      "fieldType": "Long"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "IndexReel",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [],
+  "service": "serviceImpl",
+  "skipClient": true
+}
